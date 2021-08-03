@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>广西·桂剧</title>
+<link type="text/css" rel="stylesheet" href="../../css/style.css" />
+<script type="text/javascript" src="../../js/jquery1.42.min.js"></script>
+<script type="text/javascript" src="../../js/jquery.SuperSlide.2.1.1.js"></script>
+</head>
+<script type="text/javascript">
+function MM_popupMsg(msg) { //v1.0
+  alert(msg);
+}
+</script>
+</head>
+<body>
+<div id="main"
+    <div class="logo_m">
+		<div class="logo">
+			<a href="#"><img src="../../images/logo.jpg" /></a>
+		</div>
+	</div>
+	<!--nav-->
+  	<div class="navBar">
+		<ul class="nav">
+			<li id="m1" class="m">
+				<h3><a href="../../index.html">网站首页</a></h3>
+			</li>
+			<li id="m2" class="m">
+				<h3><a href="html/about/about.html">关于桂剧<i></i></a></h3>
+				<ul class="sub">
+					<li><a href="../about/jianjie.html">桂剧简介</a></li>
+					<li><a href="../about/tese.html">桂剧特色</a></li>
+					<li><a href="../about/lishi.html">桂剧历史</a></li>
+					<li><a href="../about/jumu.html">桂剧剧目</a></li>
+					<li><a href="../about/yingxiang.html">桂剧影响</a></li>
+					<li><a href="../about/baohu.html">桂剧保护</a></li>
+				</ul>
+			</li>
+			<li id="m3" class="m">
+				<h3><a href="../mingling/mingling.html">桂剧名伶</a></h3>
+			</li>
+			<li id="m4" class="m">
+				<h3><a href="../zhishi/zhishi.html">桂剧知识</a></h3>
+			</li>
+			<li id="m5" class="m">
+				<h3><a href="../media/qumu.html">桂剧曲目</a></h3>
+			</li>
+			<li id="m6" class="m">
+				<h3><a href="../pic/pic.html">图片欣赏</a></h3>
+			</li>
+			<li id="m7" class="m">
+				<h3><a href="liuyan.html">留言板</a></h3>
+			</li>
+			<li class="m">
+				<h3><a href="../ziwojieshao/ziwojieshao.html">开发者介绍</a></h3>
+			</li>
+		</ul>
+	</div>
+	<script type="text/javascript">
+		jQuery(".nav").slide({ 
+			type:"menu", //效果类型
+			titCell:".m", // 鼠标触发对象
+			targetCell:".sub", // 效果对象，必须被titCell包含
+			effect:"slideDown",//下拉效果
+			delayTime:300, // 效果时间
+			triggerTime:0, //鼠标延迟触发时间
+			returnDefault:true  //返回默认状态
+		});
+	</script> 
+  	<div class="fl"></div>
+	<div class="main_m">    
+  		<!--banner-->
+		<div class="fh_banner">
+			<img src="../../images/banner_8.jpg" />
+		</div>
+  		<!--content-->
+		<div class="tese">
+			<div class="tese_title">留言板</div>
+			<div class="tese_cont">
+				<div class="cent_left0" style="margin:0 auto; float:none;">
+					<form action="" method="get" enctype="multipart/form-data">
+						<table width="70%" border="0" align="center" cellpadding="0" cellspacing="0"  style="margin-top:30px;">
+							<tr>
+								<td width="41%" height="45" align="center" valign="middle"><p >用户名</p></td>
+								<td width="59%" height="45">
+									<label for="textfield"></label>
+									<input type="text" class="bk" name="textfield" id="textfield" />
+								</td>
+							</tr>
+							<tr>
+								<td height="45" align="center" valign="middle"><p >密码</p></td>
+								<td height="45">
+									<label for="textfield2"></label>
+									<input type="password"  class="bk" name="textfield2" id="textfield2" />
+								</td>
+							</tr>
+							<tr>
+								<td height="45" align="center" valign="middle"><p >邮箱</p></td>
+								<td height="45">
+									<input class="bk"  type="text" name="textfield4" id="textfield4" />
+								</td>
+							</tr>
+							<tr>
+								<td height="45" align="center" valign="middle"><p >手机号码</p></td>
+								<td height="45">
+									<input class="bk"  type="text" name="textfield5" id="textfield5" />
+								</td>
+							</tr>
+							<tr>
+								<td height="45" align="center" valign="middle"><p >性别</p></td>
+								<td height="45">
+									<input type="radio" name="radio" id="radio" value="radio" />男
+									<input type="radio" name="radio" id="radio2" value="radio" /> 女
+								</td>
+							</tr>
+							<tr>
+								<td height="45" align="center" valign="middle"><p >留言</p></td>
+								<td height="45">
+									<label for="select"></label><label for="textarea"></label>
+									<textarea name="textarea" class="bk1"  id="textarea" cols="45" rows="5"></textarea>
+									<label for="select2"></label>
+								</td>
+							</tr>
+							<tr>
+								<td height="70" align="center" valign="middle">&nbsp;</td>
+								<td height="70"><input  class="anniu" name="button2" type="submit" id="button2"  onclick="MM_popupMsg('请重新输入')" value="重置" /> 
+									&nbsp;&nbsp;&nbsp;&nbsp;
+									<input  class="anniu" type="submit" name="button" id="button" value="确定" />
+								</td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+							</tr>
+							<tr>
+								<td height="70" align="center" valign="middle">没有账号？点击注册</td>
+							</tr>
+						</table>
+					</form>
+				</div>
+				<div class="fl"></div>
+			</div>
+		</div>
+		<div class="bottom">制作人： 软件开发191班 贺志飞 学号:5720191408</div>
+	</div>
+</div>
+</body>
+</html>

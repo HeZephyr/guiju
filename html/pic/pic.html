@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<link rel="stylesheet" href="../../css/slide.css">
+    <script src="../../js/jquery.min.js"></script>
+    <script src="../../js/slide.js"></script>
+    <meta name="auto" content='spider'>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>广西·桂剧</title>
+<link type="text/css" rel="stylesheet" href="../../css/style.css" />
+<link href="../../css/zzsc.css" rel="stylesheet" type="text/css"/>
+    <style>
+        .ck-slide {
+            width:980px;
+            height:500px;
+        }
+        .ck-slide ul.ck-slide-wrapper {
+            height:320px;
+        }
+    </style>
+</head>
+<body>
+<div id="main">   
+	<div class="logo_m">
+		<div class="logo">
+			<a href="#"><img src="../../images/logo.jpg" /></a>
+		</div>
+	</div>
+	<!--nav-->
+	<div class="navBar">
+		<ul class="nav">
+			<li class="m">
+				<h3><a href="../../index.html">网站首页</a></h3>
+			</li>
+			<li class="m">
+				<h3><a href="../about/about.html">关于桂剧<i></i></a></h3>
+				<ul class="sub">
+					<li><a href="../about/jianjie.html">桂剧简介</a></li>
+					<li><a href="../about/tese.html">桂剧特色</a></li>
+					<li><a href="../about/lishi.html">桂剧历史</a></li>
+					<li><a href="../about/jumu.html">桂剧剧目</a></li>
+					<li><a href="../about/yingxiang.html">桂剧影响</a></li>
+					<li><a href="../about/baohu.html">桂剧保护</a></li>
+				</ul>
+			</li>
+			<li class="m">
+				<h3><a href="../mingling/mingling.html">桂剧名伶</a></h3>
+			</li>
+			<li class="m">
+				<h3><a href="../zhishi/zhishi.html">桂剧知识</a></h3>
+			</li>
+			<li class="m">
+				<h3><a href="../media/qumu.html">桂剧曲目</a></h3>
+			</li>
+			<li class="m">
+				<h3><a href="pic.html">图片欣赏</a></h3>
+			</li>
+			<li class="m">
+				<h3><a href="../liuyan/liuyan.html">留言板</a></h3>
+			</li>	
+			<li class="m">
+				<h3><a href="../ziwojieshao/ziwojieshao.html">开发者介绍</a></h3>
+			</li>
+		</ul>
+	</div>
+	<script type="text/javascript">
+		jQuery(".nav").slide({ 
+			type:"menu", //效果类型
+			titCell:".m", // 鼠标触发对象
+			targetCell:".sub", // 效果对象，必须被titCell包含
+			effect:"slideDown",//下拉效果
+			delayTime:300, // 效果时间
+			triggerTime:0, //鼠标延迟触发时间
+			returnDefault:true  //返回默认状态
+		});
+	</script> 
+	<div class="fl"></div> 
+	<div class="main_m">    
+		<!--banner-->
+		<div class="fh_banner">
+			<img src="../../images/banner_7.jpg" />
+		</div>
+		<!--content-->
+  		<div class="tese">
+  			<div class="tese_title">图片欣赏</div>
+			<div class="tese_cont">
+				<div class="mingling">
+					<div class="imgbox" id="imgbox">
+						<div class="ck-slide">
+							<ul class="ck-slide-wrapper">
+								<li>
+									<img src="../../images/pic1.jpg" alt="" style="width:980px;height:760px;">
+								</li>
+								<li style="display:none">
+									<img src="../../images/pic2.jpg" alt="" style="width:980px;height:760px;">
+								</li>
+								<li style="display:none">
+									<img src="../../images/pic3.jpg" alt="" style="width:980px;height:760px;">
+								</li>
+								<li style="display:none">
+									<img src="../../images/pic4.jpg" alt="" style="width:980px;height:760px;">
+								</li>
+								<li style="display:none">
+									<img src="../../images/pic5.jpg" alt="" style="width:980px;height:760px;">
+								</li>
+								<li style="display:none">
+									<img src="../../images/pic6.jpg" alt="" style="width:980px;height:760px;">
+								</li>
+								<li style="display:none">
+									<img src="../../images/pic7.jpg" alt="" style="width:980px;height:760px;">
+								</li>
+								<li style="display:none">
+									<img src="../../images/pic8.jpg" alt="" style="width:980px;height:760px;">
+								</li>
+								<li style="display:none">
+									<img src="../../images/pic9.jpg" alt="" style="width:980px;height:760px;">
+								</li>
+							</ul>
+							<a href="javascript:;" class="ctrl-slide ck-prev">上一张</a>
+							<a href="javascript:;" class="ctrl-slide ck-next">下一张</a>
+							<div class="ck-slidebox">
+								<div class="slideWrap">
+									<ul class="dot-wrap">
+										<li class="current"><em>1</em></li>
+										<li><em>2</em></li>
+										<li><em>3</em></li>
+										<li><em>4</em></li>
+										<li><em>5</em></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<script>
+							$('.ck-slide').ckSlide({
+								autoPlay:true
+								/*dir:"x"*/
+							});
+						</script>
+ 					</div>
+				</div>
+				<div class="fl"></div>
+			</div>
+		</div>	
+	</div>   
+	<div class="bottom">制作人： 软件开发191班 贺志飞 学号:5720191408</div>
+</div>
+</body>
+</html>
+
+

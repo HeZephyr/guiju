@@ -1,0 +1,41 @@
+#zzsc {
+	width: 1000px;	/* 图片的宽 */
+	height: 410px;	/* 图片的高	 */
+	overflow: hidden;
+}
+#zzsc a {
+	position: absolute;
+	top: 0; 
+	left: 0;
+}
+#zzsc a img {
+	border: none;
+}
+
+/* 以下是针对单选按钮设定 */
+#zzsc .abgne-controls {
+	list-style: none; 
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	right: 10px;
+	bottom: 25px;
+	height: 20px;
+}
+#zzsc .abgne-controls li {
+	float: left;
+	width: 25px;
+	height:25px;
+	line-height: 25px;
+	font-size: 16px;
+	font-weight: 900;
+	text-align: center;
+	cursor: pointer;
+	margin-right: 2px;
+	color: #4a0001;
+	background-color: #fff;
+}
+#zzsc .abgne-controls li.current { 
+	color: #fff;
+	background-color: #4a0001;
+	}
