@@ -1,6 +1,5 @@
 # guiju
-html+css+JavaScript实现的，为本人网页制作大作业，高分项目。
-附报告，需要的可以加我QQ:2825841950
+html+css+JavaScript实现的课设，有任何问题可以QQ联系我：2825841950。
 <br/>
 
 项目预览如图：
